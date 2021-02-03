@@ -1,0 +1,105 @@
+/* Web Programming UNPAS */
+
+body {
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(151, 10, 156);
+}
+
+.isi {
+    grid-area: login;
+	background-color: rgba(255, 255, 255, 0.664);
+	text-align: center;
+	width: 300px;
+	height: 265px;
+	margin: auto;
+	margin-top: 160px;
+	padding: 50px;
+	border-top-left-radius: 4em;
+	border-bottom-right-radius: 4em;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+}
+
+.isi h2 {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.input_data input[type=text], .password input[type=password] {
+	height: 40px;
+	width: 300px;
+	font-size: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 0.3em;
+    border: none;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+
+.tmbl_submit button[type=submit] {
+	width: 307px;
+    border: none;
+  	padding:10px 20px;
+  	text-decoration:none;
+  	font-family:sans-serif;
+  	font-size:15pt;
+	font-weight: bold;
+	border-radius: 0.3em;
+	margin-top: 30px;
+	background-color: mediumaquamarine;
+    color: white;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    outline: none;
+}
+
+.tmbl_submit button[type=submit]:hover {
+	background-color: rgb(241, 16, 16);
+	color: black;
+	font-weight: bold;
+}
+
+.pesan_error p{
+	color: #ff0000;
+	font-style: italic;
+	margin-top: 15px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.daftar {
+    position: absolute;
+    z-index: 1;
+    right: 2px;
+    top: 2px;
+}
+
+.daftar button[type=submit] {
+    border-radius: 3em;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+
+.isi2 {
+    grid-area: login;
+	background-color: rgba(255, 255, 255, 0.664);
+	text-align: center;
+	width: 300px;
+	height: 290px;
+	margin: auto;
+	margin-top: 160px;
+	padding: 50px;
+	border-top-left-radius: 4em;
+	border-bottom-right-radius: 4em;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.isi2 h2 {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 21px;
+}
+

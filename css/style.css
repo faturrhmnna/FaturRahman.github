@@ -1,0 +1,24 @@
+/* Web Programming UNPAS */
+
+body {
+    background-color: rgb(175, 175, 175);
+    font-size: 14px;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+header {
+	height: 100px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul.tombol-cari {
+	margin-top: 20px;
+}
+
+header {
+	padding-top: 30px;
+	font-size: 30px;
+}
